@@ -218,3 +218,8 @@ i, em { font-style: italic }
     line-height: 36px;
     letter-spacing: -1px;
 }
+
+.slide img {
+    width: 900px;
+    height: 700px;
+}

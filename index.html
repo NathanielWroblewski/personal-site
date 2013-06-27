@@ -21,5 +21,16 @@
   			<img id="beagle" src="/beagle.png">
   		</div>
   	</div>
+
+    <div class="hint">
+      <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+      if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+      }
+    </script>
+    <script src="impress.js"></script>
+    <script>impress().init();</script>
   </body>
 </html>
