@@ -51,15 +51,6 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
-/*    background: rgb(0, 102, 102);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(0, 140, 140)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(0, 140, 140), rgb(0, 90, 90));
-    background:    -moz-radial-gradient(rgb(0, 140, 140), rgb(0, 90, 90));
-    background:     -ms-radial-gradient(rgb(0, 140, 140), rgb(0, 90, 90));
-    background:      -o-radial-gradient(rgb(0, 140, 140), rgb(0, 90, 90));
-    background:         radial-gradient(rgb(0, 140, 140), rgb(0, 90, 90));*/
-}
-
 /* ################### Link Style ###################### */
 
 a {
@@ -202,12 +193,16 @@ i, em { font-style: italic }
 
 .slide {
     display: block;
-    width: 840px;
-    height: 525px;
+    width: 630px;
+    height: 394px;
 }
 
 .slide img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+.intro {
+    
 }
