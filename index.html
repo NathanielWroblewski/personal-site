@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" rel="stylesheet">
-  	<link rel="stylesheet" href="/app.css">
-  	<script src="/application.js"></script>
-  	<title>Nathaniel Wroblewski</title>
+    <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app.css">
+    <script src="application.js"></script>
+    <title>Nathaniel Wroblewski</title>
   </head>
   <body>
-  	<div class="fallback-message">
-  		<p>Your browser <b>doesn't support the features required</b> by this site.</p>
-  		<p>For the best experience please use the latest <b>Chrome</b> browser.</p>
-  	</div>
 
-  	<div class="intro">
-     <h1>Nathaniel Wroblewski</h1>
-     <p>I am web developer in San Francisco</p>
-  	</div>
+    <div class="header">
+      <i class="icon-chevron-right">
+      </i>
+      <span class="name">nathaniel wroblewski</span>
+    </div>
 
-  	<div id="impress">
-  		<div class="step slide">
-  			<img id="beagle" src="/beagle.png">
-  		</div>
-  	</div>
+    <div class="intro">
+     <p>Hello, my name is Nathaniel Wroblewski.</p><p>I am web developer living in San Francisco.</p><p>Let's get together and talk code!</p>
+    </div>
 
-    <ul>
+    <div class="monitor">
+      <img src="screen.png" alt="monitor">
+      <div class="websites" align="center">
+        <ul class="pages">
+          <li>
+            <a href="http://www.beagle.pw">
+              <img src="beagle.png" alt="website">
+            </a>
+          </li>
+          <li>
+            <a href="http://timeforactivities.herokuapp.com">
+              <img src="TimeforActivities.png" alt="website" style="height:299px;width:486px;">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="description">
+      <h2>Beagle</h2>
+      <p>Track legislation that interest you</p>
+    </div>
+
+    <ul>`
       <li>
         <a href="http://rube-on-rails.tumblr.com/">
           <i class="icon-align-center icon-tumblr-sign icon-4x">
@@ -32,7 +54,8 @@
       </li>
       <li>
         <a href="http://www.linkedin.com/in/nathanielwroblewski">
-          <i class="icon-align-center icon-linkedin-sign icon-4x"></i>
+          <i class="icon-align-center icon-linkedin-sign icon-4x">
+          </i>
         </a>
       </li>
       <li>
@@ -48,16 +71,5 @@
         </a>
       </li>
     </ul>
-
-    <div class="hint">
-      <p>Use a spacebar or arrow keys to navigate</p>
-    </div>
-    <script>
-      if ("ontouchstart" in document.documentElement) { 
-        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
-      }
-    </script>
-    <script src="impress.js"></script>
-    <script>impress().init();</script>
   </body>
 </html>
