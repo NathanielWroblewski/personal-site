@@ -76,7 +76,7 @@ a:focus {
 /* ################### Presentation ###################### */
 
 article {
-    background: url('skyline.png');
+    /*background: url('skyline.png');*/
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom;
